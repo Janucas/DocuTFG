@@ -1,0 +1,41 @@
+/* Fondo principal y texto */
+:root {
+  --sl-color-bg: #8dd3ba;
+  --sl-color-text: #0f172a;
+}
+
+/* Líneas divisorias horizontales y verticales */
+.sl-content > hr,
+.sl-sidebar nav ul > li > ul::before,
+.sl-sidebar nav ul > li > ul > li::before,
+.sl-content section > hr,
+.sl-container hr {
+  border-color: #2f4f3a !important;
+}
+
+/* Caja de navegación inferior (Next) */
+.sl-card {
+  border: 2px solid #2f4f3a !important;
+  background-color: #a8e3cc !important;
+  transition: all 0.2s ease;
+}
+
+/* Hover en caja */
+.sl-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-color: #1e3d30 !important;
+}
+
+/* Forzar color de todas las líneas divisorias visibles */
+.sl-container hr,
+.sl-content hr,
+.sl-sidebar nav ul > li > ul::before,
+.sl-sidebar nav ul > li > ul > li::before,
+.sl-sidebar nav ul > li::before,
+.sl-container .sl-markdown hr,
+.sl-container .sl-markdown blockquote {
+  border-color: #000000 !important;
+  color: #000000 !important;
+}
+

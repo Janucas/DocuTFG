@@ -9,7 +9,7 @@ description: Funcionalidades clave del sistema vistas desde el usuario.
 El usuario introduce sus datos y se registra.
 
 ### CU02: Iniciar sesión
-El usuario se autentica usando Firebase.
+El usuario se autentica con sus datos de registro.
 
 ### CU03: Crear equipaje
 Tras introducir destino y fechas, se genera una lista personalizada.

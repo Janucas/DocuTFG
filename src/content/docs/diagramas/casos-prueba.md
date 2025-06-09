@@ -17,8 +17,7 @@ Los casos de prueba incluyen la funcionalidad probada y su resultado esperado.
 | CP05 | Exportar lista de equipaje a PDF       | Se descarga un archivo PDF con la lista de equipaje          |
 | CP06 | Acceso al historial de equipajes       | Se muestra el listado de equipajes guardados por el usuario  |
 | CP07 | Visualizar detalles de un equipaje     | Se muestran los detalles de esa lista día a día              |
-| CP08 | Editar una lista generada              | El usuario puede modificar o eliminar artículos de la lista  |
-| CP09 | Cerrar sesión                          | Se cierra sesión y se redirige al login                      |
+| CP08 | Cerrar sesión                          | Se cierra sesión y se redirige al login  |
 
 ---
 
